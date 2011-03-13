@@ -64,7 +64,7 @@ public class XMLWriter implements Writer{
     else{
       return complexQuestionToString(numOfTab,(ComplexQuestion) question);
     }
-  };
+  }
 
   public String questionToString(Question question){
     return questionToString(0,question);
